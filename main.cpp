@@ -2,11 +2,13 @@
 #include "src/basic.hpp"
 #include "src/string.hpp"
 #include "src/tuple-pair.hpp"
+#include "src/vector.hpp"
 
 int main() {
     /* playWithArray(); */
     /* playWithString(); */
-    playWithTuple();
-    playWithPair();
+    /* playWithTuple(); */
+    /* playWithPair(); */
+    playWithVector();
     return 0;
 }
