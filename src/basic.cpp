@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-#include "container.hpp"
+#include "array.hpp"
 using namespace std;
 
 enum Day {
@@ -24,13 +24,8 @@ enum class Day2 {
   Sat   // 6
 };
 
-void testVariables();
 int repeat(int times, int target);
 
-int main() {
-    playWithArray();
-    return 0;
-}
 
 void testVariables() {
     bool b = true;

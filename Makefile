@@ -1,2 +1,2 @@
 build:	
-	clang++ src/$(FILE).cpp
+	clang++ *.cpp src/*.cpp -o bin
