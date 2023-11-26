@@ -4,5 +4,6 @@
 using namespace std;
 
 void playWithTuple();
+void playWithPair();
 
 #endif  // TUPLE_H_

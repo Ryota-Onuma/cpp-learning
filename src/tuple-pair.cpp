@@ -1,7 +1,8 @@
 #include <iostream>
 #include <tuple>
 #include <string>
-#include "tuple.hpp"
+#include <utility>
+#include "tuple-pair.hpp"
 using namespace std;
 
 void playWithTuple() {
@@ -18,7 +19,19 @@ void playWithTuple() {
   int id;
   string name, country;
   tie(id, name, country) = user;
-  cout << id << endl;
-  cout << name << endl;
-  cout << country << endl;
+  cout << "Tuple ID: " << id << endl;
+  cout << "Tuple Name: " << name << endl;
+  cout << "Tuple Country: " << country << endl;
+}
+
+void playWithPair() {
+  pair<int, string> user = make_pair(1, "Bob");
+  cout << user.first << endl;
+  cout << user.second << endl;
+  
+  int id;
+  string name;
+  tie(id, name) = user;
+  cout << "Pair ID: " << id << endl;
+  cout << "Pair Name: " << name << endl;
 }
