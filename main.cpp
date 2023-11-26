@@ -1,7 +1,9 @@
 #include "src/array.hpp"
 #include "src/basic.hpp"
+#include "src/string.hpp"
 
 int main() {
-    playWithArray();
+    /* playWithArray(); */
+    playWithString();
     return 0;
 }
